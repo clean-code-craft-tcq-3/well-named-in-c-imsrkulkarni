@@ -1,4 +1,4 @@
-ifndef _COLORCODE_H
+#ifndef _COLORCODE_H
 #define _COLORCODE_H
 
 #define MAX_COLORPAIR_NAME_CHARS 16
