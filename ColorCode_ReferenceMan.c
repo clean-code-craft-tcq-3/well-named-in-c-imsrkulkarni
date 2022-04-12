@@ -10,7 +10,7 @@ void printReferenceManual()
    {
       for(minorColorIndex=0;minorColorIndex<numberOfMinorColors;minorColorIndex++)
       {
-          printf("%d\t %s\t  %s\n",referManIndex,MajorColorNames[majorColorIndex],MinorColorNames[minorColorIndex]);
+          printf("%d\t %s\t  %s\n",referManIndex++,MajorColorNames[majorColorIndex],MinorColorNames[minorColorIndex]);
       }
    }
  }
