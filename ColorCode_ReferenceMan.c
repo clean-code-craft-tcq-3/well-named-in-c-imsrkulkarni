@@ -4,7 +4,7 @@
 
 void printReferenceManual() 
 {
-   int referManIndex=1,majorColorIndex;
+   int majorColorIndex;
    printf("PairNumber\t  MajorColor\t     MinorColor\n");
    for(majorColorIndex=0;majorColorIndex<numberOfMajorColors;majorColorIndex++)
    {
@@ -14,7 +14,7 @@ void printReferenceManual()
 
 void mapMinorColorWithMajorColor(char* majorColor)
 {
-   int minorColorIndex;
+   int minorColorIndex,referManIndex=1;
    for(minorColorIndex=0;minorColorIndex<numberOfMinorColors;minorColorIndex++)
       {
           printf("%d\t %s\t  %s\n",referManIndex++,majorColor,MinorColorNames[minorColorIndex]);
